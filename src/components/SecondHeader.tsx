@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
-import { SiGithub } from "react-icons/si"
 import user from "../data/user.json"
+import SecondHeaderOptions from "./SecondHeaderOptions"
 
 const SecondHeader = () => {
   return (
@@ -23,9 +23,7 @@ const SecondHeader = () => {
           Public
         </div>
       </div>
-      <div>
-        <SiGithub size={20} />
-      </div>
+      <SecondHeaderOptions />
     </div>
   )
 }

@@ -8,6 +8,7 @@ export default function Home() {
       <Header />
       <FileStructureWrapper>
         <SecondHeader />
+        <div className="h-screen"></div>
       </FileStructureWrapper>
     </div>
   )
